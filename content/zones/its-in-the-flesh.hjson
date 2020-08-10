@@ -1,0 +1,25 @@
+name: It's in the Flesh
+description: It's all about Flesh ore, a new ore just discovered on your way to finding the elusive Wolframium ore.
+loadout: basicNucleus
+startingItems: [
+  copper/500
+  lead/500
+  graphite/500
+]
+conditionWave: 10
+launchPeriod: 15
+requirements: [
+  {
+    type: ZoneWave
+    zone: desertWastes
+    wave: 40
+  }
+]
+resources: [
+  copper
+  lead
+  coal
+  sand
+  titanium
+  flesh
+]

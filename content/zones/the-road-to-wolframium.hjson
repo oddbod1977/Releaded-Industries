@@ -1,0 +1,32 @@
+name: The road to Wolframium
+description: You in reach of the elusive Wolframium ore, but will the enemy let you mine it. 
+loadout: basicNucleus
+startingItems: [
+  copper/500
+  lead/500
+  graphite/500
+  titanium/500
+]
+conditionWave: 10
+launchPeriod: 20
+requirements: [
+  {
+    type: ZoneWave
+    zone: its-in-the-flesh
+    wave: 30
+  }
+  {
+    type: Unlock
+    block: fleshgun
+  }
+]
+resources: [
+  copper
+  lead
+  coal
+  sand
+  titanium
+  thorium
+  flesh
+  wolframium
+]
